@@ -1,0 +1,14 @@
+Printing via Ghostscript
+ Alec Clews reports success at using Ghostscript to perform his printing - using gsview version 3.4, and Ghostscript version 6.01 
+
+ The configuration is straightforward, here's his settings, (which you should modify to suit). 
+
+      (setq ps-lpr-command "C:\\Program Files\\Ghostgum\\gsview\\gsprint.exe")
+
+      ;; THis line causes ghostscript to query which printer to
+      ;; use - which you may not need if, for example, you only
+      ;; have one printer.
+      (setq ps-lpr-switches '("-query"))
+
+      (setq ps-printer-name t)
+ The commandline options are documented in the gsprint.htm file which comes with Ghostscript. 
