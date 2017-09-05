@@ -1,7 +1,5 @@
 # Gnu-Emacs-Related
 
-<hr>
-
 A place to store my various emacs lisp code that tends to follow me
 around. This is quite cluttered with old stuff and remnants of
 previous places I've coded (host names, settings and such). One of
