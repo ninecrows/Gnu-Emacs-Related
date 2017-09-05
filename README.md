@@ -22,3 +22,6 @@ google search pointed me to a better way). I've rummaged around a
 little bit but I'm sure there's much more in there than I've seen so
 far...not quite sure how to get systems to auto-load packages but I
 expect that can be arranged...
+
+Looking at the list of packages that I've got stored in local lisp, it
+is clear that I need to do some weeding sometime soon.
